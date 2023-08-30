@@ -1,0 +1,253 @@
+.site-footer
+{
+  background-color:#fe7689;
+  padding:100px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#fff;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a
+{
+  color:#fff;
+}
+.site-footer a:hover
+{
+  color:#fe7689;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#fff; text-decoration: none;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+
+
+
+
+
+
+/* Shop Now Btn Banner Section */
+.ShopNowBnr{
+  background-image: url('https://img.merkandi.com/imgcache/538x420/images/offer/2023/06/30/pack-de-pashminas-de-verano-2023-lote-surtido-1688137842-1688137856.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #33353dac;
+  background-blend-mode: multiply;
+  height: 630px;
+}
+.HijabVariety{
+  color: #4b366b;
+  font-size: 42px; 
+  margin-top: 90px;
+  font-weight: bolder;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shopnowBnrHeading{
+  color: #fff;
+  margin-top: 0px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 45px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shopnowbtn{
+  background-color: #4b366b;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+  padding: 15px 22px 15px 22px;
+  border-radius: 25px;
+}
+
+
+/* Shop The Quality */
+.qualitySec{
+  background-color: #ffa2af;
+}
+.qualitySec1{
+  background-image: url('https://bloomscarfs.pk/cdn/shop/files/Untitled_design_5_900x.png?v=1658346214');
+  background-size: cover;
+  width: 50%;
+  height: 700px;
+}
+.qualitySec2{
+  display: flex;
+  height: 700px;
+  align-items: center;
+}
+.qualitySecheading{
+ color: white; 
+ padding-left: 12px;
+}
+.qualitySecPara{
+ padding-left: 15px;
+ /* padding-top: 12px; */
+  color: rgb(240, 238, 238);
+}
+.qualitySecBtn{
+  border: 0;
+  padding-left: 12px;
+  margin-left: 15px;
+  color: #fe7689; 
+  border-radius: 20px;
+  margin-top: 12px;
+  padding: 15px;
+}
+
+/* end  */
+
+
+/* testimonial Sec */
+.testimonialImg1{
+  background-image: url("https://assets0.mirraw.com/images/9705746/image_large_m.jpeg?1688222466");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fe7689;
+  border-radius: 50px;
+}
+.testimonialImg2{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyBwx6E3hZjfcn0lEcONCHqSAcEQdiGMhMQ3RUgXMZtYbjE6ncmu2COGkDCZ5FnbhCkaE&usqp=CAU");
+  background-size: 100% 100%;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fe7689;
+  border-radius: 50px;
+}
+.testimonialImg3{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmy9HmVz3QRPigegHvlL4FfKFo4pdNhOfaEkZf6jxvZsJD07GVyBMXmJkZjBJ2NBjDQP8&usqp=CAU");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fe7689;
+  border-radius: 50px;
+}
+.testimonialImgflex{
+  padding: 0px 0px 25px 0px;
+  margin-top: -45px;
+  display: flex;
+  justify-content: center;
+}
+.staricon{
+  color: #fe7689;
+}
+.staroutlineicon{
+  color: #fe7689;
+}
+.testimonialCol{
+  background-color: #ebe9e9;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.testimonialPara{
+  color: #949494;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+.navbar {
+  position: fixed!important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.6)!important;
+  border-bottom: 1px solid #fff;
+}
+#nav{
+  background-color: rgba(0, 0, 0, 0.6)!important;
+  color: #1a0404;
+}
+.navbar-toggler-icon {
+  filter: invert(1); /* Invert the colors of the SVG */
+}
+
+.icon{
+  /* color: #fff!important; */
+  float: right;
+  border-color: #fff;
+
+}
+
+.navbar .logo {
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.navbar-nav {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color:#fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+  color: #fff;
+}
+
+

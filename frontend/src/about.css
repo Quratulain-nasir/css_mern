@@ -1,0 +1,57 @@
+/* AboutPage.css */
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 576px) {
+    .about-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-content {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .about-image {
+        flex: 1;
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+/* Media query for screens up to 575px */
+@media (max-width: 800px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-image {
+        order: -1; /* Move image above content */
+    }
+
+    .about-content {
+        padding: 20px;
+    }
+}

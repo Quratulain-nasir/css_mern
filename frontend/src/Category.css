@@ -1,0 +1,40 @@
+.category{
+    display: flex;
+margin: 10px;
+margin-bottom: 10px;
+  flex-wrap: wrap;
+ width: auto;
+        height: auto;
+
+
+  margin: -10px
+
+}
+@media (max-width: 1000px) {
+    .category{
+        /* display: auto;
+        justify-self: center;
+        align-items: center;
+        justify-content: center;
+        display:inline-block; */
+        /* width: auto;
+        height: auto;
+        display: auto;
+        align-items: center;
+        justify-self: center;
+       
+        justify-content: center;
+    margin: 0; */
+    justify-content: center;
+
+    }
+}
+.brandheading{
+    color: #fe7689;
+}
+.categoryheading{
+    color: #fe7689;
+}
+.productHeading{
+    color: #fe7689;
+}

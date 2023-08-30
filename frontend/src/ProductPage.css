@@ -1,0 +1,22 @@
+.HeadingtxtClr{
+    color: #fe7689;
+}.hijabSampleImg{
+    height: 300px;
+    width: 250px;
+}
+.btns{
+    background-color: rgb(87, 86, 86);
+    color: #fff;
+    padding: 0px 12px 0px 12px;
+    border: 1px solid #fe7689   ;
+    font-size: 25px;
+}
+.cartbtn{
+    background-color: #fe7689;
+    border: 0;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

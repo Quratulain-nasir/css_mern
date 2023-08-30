@@ -1,0 +1,92 @@
+/* .navbar {
+  position: relative!important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 90px;
+  padding-top: 80px;
+  box-sizing: border-box;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.6)!important;
+  border-bottom: 1px solid #fff;
+} */
+.header{
+  background-color: #fe7689;
+  padding: 7px 0px 2px 0px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+  z-index: 1000; 
+  width: 100%;
+  background-color: white !important;
+  color: #fe7689 !important; 
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+
+.logo {
+  height: 50px;
+padding-top: 5px;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: bold; 
+   text-transform: uppercase; 
+  color: #fe7689 !important;
+}
+
+
+.navbar-nav .nav-link {
+  color: #fe7689 !important;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+.navbar-nav .nav-link:hover {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+  color: #fe7689;
+}
+
+
+.navbar-nav .link {
+  color: #fe7689;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar-nav .link:hover {
+  /* background: rgba(0, 0, 0, 0.7); */
+  border-radius: 6px;
+  color: #fe7689;
+}
+.login{
+  color: #fe7689;
+}
+/* Your existing styles */
+
+/* Styles for open toggle bar */
+#nav.toggle-open {
+  background-color: black;
+}
+
+#nav.toggle-open .nav-list .nav-link {
+  color: #fe7689;
+}
+#nav.toggle-open .navbar-toggler-icon {
+  filter: invert(0); /* Invert icon colors back to default */
+}
+
+#nav.toggle-open .nav-link, #nav.toggle-open .nav-item, #nav.toggle-open .navbar-brand {
+  color: #fe7689;
+}
+
+/* Rest of your existing styles */
